@@ -9,4 +9,7 @@
 
   --line-height-base: 1.6;
   --line-height-heading: 1.25;
+  --color-bg: #ffffff;
+  --color-text: #222222;
+  --color-primary: #0057ff;
 }
