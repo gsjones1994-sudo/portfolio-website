@@ -2,108 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Gareth Jones | Junior Front End Developer</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gareth Jones | Junior Web Developer</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
   </head>
   <body>
-    <header class="hero">
-      <h1>Gareth Jones</h1>
-      <!-- TODO: Add a brief description of your skills -->
-      <p>Aspiring Front End Developer</p>
-      <!-- TODO: Add call to action buttons e.g. "projects" -->
-    </header>
-    <!-- ============ NAVIGATION ========== -->
-    <nav class="nav">
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <!-- ============ ABOUT ME ========== -->
-    <section id="about" class="about-me">
-      <h2>About Me</h2>
-      <p>
-        I am a motivated aspiring front-end developer currently self-teaching
-        HTML, CSS, and JavaScript around my current role. I enjoy building clean
-        and responsive websites, turning ideas into functional web experiences.
-        I am eager to grow in a junior developer position where I can contribute
-        practical skills, learn from experienced developers, and continue
-        expanding my knowledge of modern web technologies.
-      </p>
-    </section>
-    <!-- ============ SKILLS ========== -->
-    <section id="skills" class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript (Basics)</li>
-        <li>Responsive Design</li>
-        <li>Version Control (Git + GitHub)</li>
-      </ul>
-    </section>
-    <!-- ============ PROJECTS ========== -->
-    <section id="projects" class="projects">
-      <h2>Projects</h2>
-      <article class="project">
-        <h3>Responsive Buisness Landing Page</h3>
-        <p>
-          A fully responsive one-page website designed for a fictional local
-          business, built to demonstrate clean layout, accessibility, and
-          mobile-first design.
-        </p>
-        <p><strong>Tools Used:</strong> HTML5, CSS3 (flexbox)</p>
-        <ul>
-          <li>Mobile-first responsive layout</li>
-          <li>Semantic HTML5 structure for accessibility</li>
-          <li>Reusable CSS classes for consistent styling</li>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav__logo">Gareth Jones</a>
+        <ul class="nav__list">
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
         </ul>
-        <!-- replace # with actual links when ready -->
-        <a href="#">Live Demo</a>
-        <a href="#">Source Code</a>
-      </article>
-      <!-- PROJECT CARD END -->
-      <article class="project">
-        <h3>Karaoke Request Form</h3>
-        <p>
-          A simple online karaoke request form built with HTML, CSS, and
-          JavaScript.
-        </p>
-      </article>
-    </section>
-    <!-- ============ CONTACT ========== -->
-    <section id="contact" class="contact">
-      <h2>Contact</h2>
-      <p>
-        If you'd like to get in touch, feel free to reach out via email or
-        connect with me on LinkedIn.
-      </p>
-      <ul>
-        <li>
-          Email:
-          <a href="mailto:garethsjones94@gmail.com">garethsjones94@gmail.com</a>
-        </li>
-        <li>
-          LinkedIn:
-          <a
-            href="https://www.linkedin.com/in/garethjonesdec94/"
-            target="_blank"
-            >linkedin.com/in/gareth-jones-123456789/</a
-          >
-        </li>
-        <li>
-          GitHub:
-          <a href="https://github.com/gsjones1994-sudo" target="_blank"
-            >github.com/gsjones1994-sudo</a
-          >
-        </li>
-      </ul>
-    </section>
-    <footer class="footer">
-      <p>&copy; 2025 Gareth Jones. All rights reserved.</p>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <h1>Junior Front-End Developer</h1>
+          <p>
+            I build clean, responsive websites using HTML and CSS, with a strong
+            focus on structure and accessibility. I am currently expanding my
+            skills in JavaScript, React, and version control with Git and
+            GitHub.
+          </p>
+          <a href="projects.html" class="btn">View Projects</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <small>&copy; 2025 Gareth Jones. All rights reserved.</small>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>

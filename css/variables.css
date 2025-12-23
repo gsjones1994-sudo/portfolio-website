@@ -1,0 +1,8 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #222222;
+  --color-primary: #0057ff;
+
+  --font-body: system-ui, sans-serif;
+  --max-width: 1100px;
+}
