@@ -43,13 +43,13 @@ main {
   }
 }
 
-.projects__list {
+.projects {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  max-width: 1100px;
+  padding: 2rem 1rem;
+  margin: 0 auto;
 }
 
 .project-card {
@@ -61,7 +61,7 @@ main {
 }
 
 @media (min-width: 768px) {
-  .projects__list {
+  .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -69,15 +69,9 @@ main {
 }
 
 @media (min-width: 1200px) {
-  .projects__list {
+  .projects {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-.projects {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
 }
 
 .projects h1 {
