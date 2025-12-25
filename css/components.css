@@ -21,8 +21,7 @@
 
 .btn:hover,
 .btn:focus {
-  opacity: 0.9;
-  background-color: var(-- color-primary-hover);
+  background-color: var(--color-primary-hover);
 }
 
 .btn:focus-visible,
@@ -47,6 +46,11 @@
 .nav__list a:hover,
 .nav__list a:focus {
   text-decoration: underline;
+}
+
+.nav__list a[aria-current="page"] {
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .project-card h2 {
@@ -80,9 +84,5 @@
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.nav__list a[aria-current="page"] {
-  text-decoration: underline;
-  font-weight: 600;
+  flex-wrap: nowrap;
 }
