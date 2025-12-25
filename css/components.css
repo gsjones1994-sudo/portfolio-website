@@ -10,16 +10,19 @@
 
 .btn {
   display: inline-block;
-  margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   background-color: var(--color-primary);
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 500;
   border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   opacity: 0.9;
+  background-color: var(-- color-primary-hover);
 }
 
 .btn:focus-visible,
@@ -54,4 +57,13 @@
 .project-card .btn {
   display: inline-block;
   text-decoration: none;
+}
+
+.project-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
