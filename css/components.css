@@ -33,13 +33,19 @@
 
 .nav__logo {
   font-weight: 600;
+  text-decoration: none;
+  color: #222;
 }
 
 .nav__list a {
   font-size: 0.9rem;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
 }
 
-.nav__list a:hover {
+.nav__list a:hover,
+.nav__list a:focus {
   text-decoration: underline;
 }
 
@@ -74,4 +80,9 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.nav__list a[aria-current="page"] {
+  text-decoration: underline;
+  font-weight: 600;
 }
