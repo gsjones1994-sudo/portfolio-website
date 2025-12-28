@@ -75,6 +75,9 @@
 
 .project-card {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .project-card:hover {
@@ -96,4 +99,12 @@
 .project-card .btn {
   display: inline-block;
   text-decoration: none;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+  display: block;
 }
