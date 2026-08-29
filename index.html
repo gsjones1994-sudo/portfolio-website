@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,11 +8,27 @@
       content="Home page of Gareth Jones, showcasing my skills in HTML, CSS, and responsive web design as a junior front-end developer."
     />
     <meta name="author" content="Gareth Jones" />
-    <meta
-      name="keywords"
-      content="Gareth Jones, junior web developer, front-end developer, HTML, CSS, responsive design"
-    />
+    <meta name="theme-color" content="#0057ff" />
     <title>Gareth Jones | Junior Web Developer</title>
+    <link
+      rel="canonical"
+      href="https://gsjones1994-sudo.github.io/portfolio-website/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gareth Jones | Junior Web Developer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Gareth Jones, a junior front-end developer building clean, accessible and responsive websites with HTML and CSS."
+    />
+    <meta
+      property="og:url"
+      content="https://gsjones1994-sudo.github.io/portfolio-website/index.html"
+    />
+    <meta
+      property="og:image"
+      content="https://gsjones1994-sudo.github.io/portfolio-website/assets/images/Portfolio_page_screenshot.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/base.css" />
@@ -30,22 +46,23 @@
       sizes="32x32"
       href="assets/icons/favicon-32x32.png"
     />
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <nav class="nav" aria-label="Primary Navigation">
-        <a href="index.html" class="nav__logo" target="_blank" rel="noopener"
-          >Gareth Jones</a
-        >
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav__logo">Gareth Jones</a>
         <ul class="nav__list">
           <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="main">
       <section class="hero">
         <div class="hero__content">
           <h1>Junior Web Developer</h1>
@@ -55,12 +72,16 @@
             skills in JavaScript, React, and version control with Git and
             GitHub.
           </p>
-          <a href="projects.html" class="btn">View Projects</a>
-          <a
-            href="https://github.com/gsjones1994-sudo"
-            class="btn btn--secondary"
-            >Visit My GitHub</a
-          >
+          <div class="hero__actions">
+            <a href="projects.html" class="btn">View Projects</a>
+            <a
+              href="https://github.com/gsjones1994-sudo"
+              class="btn btn--secondary"
+              target="_blank"
+              rel="noopener"
+              >Visit My GitHub</a
+            >
+          </div>
         </div>
       </section>
     </main>
