@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,11 +8,23 @@
       content="Get in touch with Gareth Jones, a junior front-end developer specializing in building clean, responsive websites using HTML and CSS."
     />
     <meta name="author" content="Gareth Jones" />
-    <meta
-      name="keywords"
-      content="Gareth Jones, contact, junior web developer, front-end developer, HTML, CSS"
-    />
+    <meta name="theme-color" content="#9b2c2c" />
     <title>Contact | Gareth Jones</title>
+    <link
+      rel="canonical"
+      href="https://gsjones1994-sudo.github.io/portfolio-website/contact.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact | Gareth Jones" />
+    <meta
+      property="og:description"
+      content="Get in touch with Gareth Jones, a junior front-end developer specializing in building clean, responsive websites using HTML and CSS."
+    />
+    <meta
+      property="og:url"
+      content="https://gsjones1994-sudo.github.io/portfolio-website/contact.html"
+    />
+    <meta name="twitter:card" content="summary" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/base.css" />
@@ -30,20 +42,23 @@
       sizes="32x32"
       href="assets/icons/favicon-32x32.png"
     />
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <nav class="nav" aria-label="Primary Navigation">
+      <nav class="nav" aria-label="Primary navigation">
         <a href="index.html" class="nav__logo">Gareth Jones</a>
         <ul class="nav__list">
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html" aria-current="page">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="main">
       <section class="contact">
         <div class="contact__content">
           <h1>Contact Me</h1>
@@ -78,7 +93,7 @@
             </p>
             <p>
               <a
-                href="assets/images/Gareth_Jones_Junior_Web_Developer_CV_v2.pdf"
+                href="assets/docs/Gareth_Jones_Junior_Web_Developer_CV_v2.pdf"
                 target="_blank"
                 rel="noopener"
                 >CV (PDF)</a

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,12 +8,25 @@
       content="Learn more about Gareth Jones, a junior front-end developer specializing in building clean, accessible, and responsive websites using HTML and CSS."
     />
     <meta name="author" content="Gareth Jones" />
-    <meta
-      name="keywords"
-      content="Gareth Jones, about, junior web developer, front-end developer, HTML, CSS, skills"
-    />
+    <meta name="theme-color" content="#9b2c2c" />
 
     <title>About | Gareth Jones</title>
+
+    <link
+      rel="canonical"
+      href="https://gsjones1994-sudo.github.io/portfolio-website/about.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="About | Gareth Jones" />
+    <meta
+      property="og:description"
+      content="Learn more about Gareth Jones, a junior front-end developer specializing in building clean, accessible, and responsive websites using HTML and CSS."
+    />
+    <meta
+      property="og:url"
+      content="https://gsjones1994-sudo.github.io/portfolio-website/about.html"
+    />
+    <meta name="twitter:card" content="summary" />
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variables.css" />
@@ -32,9 +45,12 @@
       sizes="32x32"
       href="assets/icons/favicon-32x32.png"
     />
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
         <a href="index.html" class="nav__logo">Gareth Jones</a>
@@ -47,7 +63,7 @@
       </nav>
     </header>
 
-    <main>
+    <main id="main">
       <article class="about">
         <h1>About Me</h1>
 
