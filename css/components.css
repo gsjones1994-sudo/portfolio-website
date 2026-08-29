@@ -75,11 +75,15 @@
   color: #ffffff;
 }
 
-.btn--disabled {
+.btn--disabled,
+.btn--disabled:hover,
+.btn--disabled:focus {
   background-color: transparent;
   border-color: var(--color-border);
   color: var(--color-muted);
   cursor: default;
+  transform: none;
+  box-shadow: none;
 }
 
 /* HERO SECTION */
