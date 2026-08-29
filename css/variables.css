@@ -13,11 +13,11 @@
   --max-width: 1100px;
 
   --color-bg: #ffffff;
-  --color-text: #222222;
-  --color-primary: #0057ff;
-  --color-primary-hover: #0041cc;
-  --color-accent: #f39c12;
-  --color-border: #dddddd;
-  --color-surface: #fafafa;
-  --color-muted: #666666;
+  --color-text: #241d1d;
+  --color-primary: #9b2c2c;
+  --color-primary-hover: #7a2222;
+  --color-accent: #1f2937;
+  --color-border: #e0d6d6;
+  --color-surface: #faf6f5;
+  --color-muted: #6b5c5c;
 }
